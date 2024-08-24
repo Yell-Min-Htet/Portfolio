@@ -13,7 +13,7 @@ nav #navbarNavDropdown .navbar-nav .nav-item{
     font-size: 20px;
     margin: 10px;
 }
-#home .col-lg-4{
+#home .col-4{
     margin-left: 100px;
     margin-top: 30px;
     
@@ -21,25 +21,25 @@ nav #navbarNavDropdown .navbar-nav .nav-item{
     
     
 }
-#home .col-lg-4 a:hover{
+#home .col-4 a:hover{
     color: white;
     border: 2px solid rgb(214, 231, 62);
 }
-#home .col-lg-4 #study:hover{
+#home .col-4 #study:hover{
     color: white;
 
 }
-#home .col-lg-4 span{
+#home .col-4 span{
     color: rgb(196, 187, 74);
 }
-#home .col-lg-4 h4{
+#home .col-4 h4{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: white;
 }
-#home .col-lg-4 b{
+#home .col-4 b{
     color: white;
 }
-#home .col-lg-4 #study{
+#home .col-4 #study{
     border: 2px solid rgb(221, 203, 40);
     border-radius: 15px;
     text-decoration: none;
@@ -48,7 +48,7 @@ nav #navbarNavDropdown .navbar-nav .nav-item{
     background-color: rgb(241, 222, 48);
     padding: 5px;
 }
-#home .col-lg-4 a{
+#home .col-4 a{
     text-decoration: none;
     color: black;
     border: 2px solid white;
@@ -60,7 +60,7 @@ nav #navbarNavDropdown .navbar-nav .nav-item{
 
 
 
-#home .col-lg-4 img{
+#home .col-4 img{
     margin-bottom: 30px;
     
 }
@@ -154,5 +154,47 @@ nav #navbarNavDropdown .navbar-nav .nav-item{
 }
 
 
+@media (max-width:1080px) {
+    #home .col-lg-4 img{
+        margin-bottom: 30px;
+        width: 200px;
+    }
+    #about img{
+        border-radius: 60px;
+        margin-left: 80px;
+        width: 200px;
+        height: 400px;
+    }
+    
+#skill .row .card{
+    border: 2px solid rgb(231, 204, 204);
+    border-radius: 17px;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    margin-left: 80px;
+    
 
 
+    
+}
+#skill .container #flex img{
+    width: 150px;
+    border-radius: 20px;
+    height:200px;
+    margin-top: 60px;
+    margin-left: 30px;
+    display: inline-flex;
+}
+#skill .container #flex .ibf #kid{
+    width:300px ;
+    margin-left: 40px;
+}
+#home .col-4{
+    margin: 50px 60px;
+
+}
+
+
+
+}
