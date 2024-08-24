@@ -154,16 +154,18 @@ nav #navbarNavDropdown .navbar-nav .nav-item{
 }
 
 
-@media (max-width:1080px) {
-    #home .col-lg-4 img{
+@media (max-width:500px) {
+    #home img{
         margin-bottom: 30px;
-        width: 200px;
+        width: 180px;
+        height: 200px;
+        margin-left: 60%;
     }
     #about img{
         border-radius: 60px;
         margin-left: 80px;
-        width: 200px;
-        height: 400px;
+        width: 300px;
+        height: 200px;
     }
     
 #skill .row .card{
@@ -194,7 +196,14 @@ nav #navbarNavDropdown .navbar-nav .nav-item{
     margin: 50px 60px;
 
 }
+#home a{
+    font-size: 10px;
+}
+#service .row .card{
+    height: 350px;
 
 
+
+}
 
 }
